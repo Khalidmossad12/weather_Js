@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="library/all.min.css  ">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>  
+    <!-- start header -->
+    <div class="site-header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="branding d-flex">
+          <img src="image/logo.png" alt="" class="logo" />
+          <div class="logo-type px-4">
+            <h1 class="site-title">Weather</h1>
+            <small class="site-description">tagline goes here</small>
+          </div>
+        </a>
+
+        <!-- Default snippet for navigation -->
+        <div class="main-navigation">
+          <ul class="menu d-flex">
+            <li class="menu-item current-menu-item px-3">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="menu-item px-3"><a href="#">News</a></li>
+            <li class="menu-item"><a href="#">Live cameras</a></li>
+            <li class="menu-item"><a href="#">Photos</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- .menu -->
+        </div>
+        <!-- .main-navigation -->
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- site header hero -->
+    <div class="hero" data-bg-image="images/banner.png">
+      <div class="container">
+        <form class="find-location">
+          <input type="text" placeholder="Find your location..." id="search" />
+          <input type="button" value="Find" id="submit" />
+        </form>
+      </div>
+    </div>
+    <!-- end site header -->
+
+    <!-- start forcaste table -->
+    <div class="forecast-table">
+      <div class="container">
+        <div class="forecast-container d-flex" id="forecast">
+          <div class="row w-100 p-0">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end forcaste table -->
+
+    <!-- start footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form position-relative">
+              <input type="text" placeholder="Enter your email to subscribe...">
+              <input class="py-3" type="submit" value="Subscribe">
+            </form>
+          </div>
+          <div class="col-md-4 px-5">
+            <div class="social-links d-flex">
+              <a class="d-flex justify-content-center align-items-center" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="d-flex justify-content-center align-items-center" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="d-flex justify-content-center align-items-center" href="#"><i class="fab fa-google-plus"></i></a>
+              <a class="d-flex justify-content-center align-items-center" href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

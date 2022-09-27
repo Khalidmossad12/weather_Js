@@ -1,0 +1,334 @@
+a
+{
+    text-decoration: none;
+}
+ul li
+{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+body {
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: rgb(30, 32, 43);
+}
+/* header */
+.site-header {
+    padding: 50px 0px;
+}
+.site-header .branding .site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+}
+.site-header .branding .site-description {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+
+.main-navigation .menu .menu-item a {
+    color: white ;
+    font-weight: 400;
+    padding: 5px 25px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+}
+.main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
+    color: rgb(0, 154, 216);
+    border-color: rgb(0, 154, 216);
+}
+
+/* hero */
+.hero{
+    background-image: url(../image/pedro-lastra-Nyvq2juw4_o-unsplash.jpg) !important ;
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    color: white;
+}
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.find-location input[type="submit"], .find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important  ;
+    
+}
+.button, form input[type="submit"], form input[type="button"], form button, form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px !important;
+    border-radius: 30px;
+    color: white;
+}
+.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+/* table focast */
+.forecast-container {
+    width: 100%;
+    background: #323544;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    
+}
+.forecast
+{
+    padding: 0 !important;
+}
+.row
+{
+    margin-left: 0 !important;
+}
+.forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.forecast-container .forecast.today .forecast-header:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+.forecast-container .forecast.today span {
+    margin-right: 20px;
+}
+.forecast.today .degree .forecast-icon  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle !important;
+}
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.forecast-container .forecast:nth-child(even) {
+    background-color: #262936;
+}
+
+/* footer */
+.site-footer {
+    background: #262936;
+    padding: 50px 0 !important;
+}
+footer input
+{
+    padding: 20px 100px 20px 20px !important;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    width: auto !important;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+    transition: all .5s ease-in-out;
+}
+i {
+    font-size: 20px;
+    color: #009ad8;
+    transition: all .5s ease-in-out;
+
+}
+footer a:hover i {
+    
+    color: #fff;
+
+}
+footer a:hover 
+{
+    background: #009ad8 !important;
+}
+
+
+
+
+
+
+/* contact */
+.breadcrumb a:after {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 7px;
+    background: url(../image/arrow-gray.png) no-repeat;
+    margin: 0 10px;
+}
+.breadcrumb a {
+    color: #bfc1c8;
+}
+.breadcrumb span {
+    color: white;
+}
+.breadcrumb {
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+    font-size: 0.9285714286em;
+}
+
+
+.contact-details {
+    background: #262936;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contact-details address {
+    padding-left: 30px;
+    position: relative;
+}
+.contact-details .map {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact-details address {
+    padding-left: 30px;
+    position: relative;
+}
+.contact-details address img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact-details a img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.contact-details a {
+    margin-right: 20px;
+    color: #bfc1c8;
+}
+.map {
+    height: 220px;
+}
+.contact-details .contact-info {
+    padding: 20px;
+}
+
+.fullwidth-block .section-title {
+    font-size: 36px;
+    font-size: 2.5714285714em;
+    font-weight: 300;
+    color: white;
+}
+.col-md-7
+{
+    padding-left: 50px;
+}
+.contact-form input:not([type="submit"]), .contact-form textarea {
+    width: 100%;
+    padding: 15px !important;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px !important;
+    border-radius: 30px;
+    resize: none;
+}
+.contact-form .text-right {
+    text-align: right;
+}
+
+.site-footer input
+{
+    padding: 14px 23px 20px 20px !important;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
